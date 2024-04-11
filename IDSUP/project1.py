@@ -47,19 +47,15 @@ users = [
 friendship_pair = [(0,1),(0,2),(1,2),(1,3),(2,3),(3,4),(4,5),(5,6),(5,7),(6,8),(7,8),(8,9)]
 
 friendships = {user["id"]:[] for user in users}
-
 for i,j in friendship_pair:
     friendships[i].append(j)
     friendships[j].append(i)
-
 print(friendships)
 
 sums=0
 for i in friendships:
     sums += len(friendships[i])
-
 average = sums/len(friendships)
-
 print("Total no of connections : ", sums)
 print("Average connections : ",average)
 
