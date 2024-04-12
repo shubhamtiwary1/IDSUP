@@ -1,0 +1,21 @@
+i. all() and any():
+
+all(iterable) returns True if all elements of the iterable are true (or if the iterable is empty). It returns False if any element is false.
+any(iterable) returns True if at least one element of the iterable is true. It returns False if all elements are false or if the iterable is empty.
+
+ii. str() and repr() function:
+
+str() returns a human-readable representation of an object. It's meant to be easily readable by humans and is used for displaying information to users.
+repr() returns an unambiguous representation of an object. It's used for debugging and logging and is meant to be more detailed and unambiguous than str().
+
+iii. sort() and sorted():
+
+sort() is a method that sorts the elements of a list in place (modifies the original list).
+sorted() is a built-in function that returns a new sorted list from the elements of any iterable (does not modify the original iterable).
+
+iv. random.choice() and random.sample():
+
+random.choice() is a function that returns a random element from a non-empty sequence.
+random.sample() is a function that returns a list of unique elements chosen randomly from a population sequence without replacement. The number of elements returned is specified by the k argument.
+
+

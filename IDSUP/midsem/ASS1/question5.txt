@@ -1,0 +1,13 @@
+Type annotations in Python are a way of explicitly specifying the types of variables, function parameters, and return values in your code. 
+While Python is dynamically typed, meaning variables can hold values of any type, 
+type annotations allow developers to add hints about the types of variables and functions.
+
+Example :- 
+
+def add(x: int, y: int) -> int:
+    """Add two integers and return the result."""
+    return x + y
+
+result: int = add(3, 5)
+print(result)
+
